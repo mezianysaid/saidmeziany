@@ -1,0 +1,36 @@
+/* $color:#012a4a; */
+.App {
+  margin: 0ch; 
+min-height: 100vh;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.appBar{
+  background-image: linear-gradient(to  right, #012a4a, #00f5d4);
+}
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.logo1{
+  @media (width < 767) {
+    display: none;
+  }
+}

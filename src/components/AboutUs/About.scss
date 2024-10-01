@@ -1,0 +1,24 @@
+$color: #012a4a;
+$gren-color: #00f5d4;
+.about {
+  // position: absolute;
+  // margin:10px;
+  .bottom {
+    height: 50px;
+    opacity: 0.5;
+  }
+  .wrapper {
+    // position: absolute;
+    margin-top: 100px;
+    color: $color;
+    margin-bottom: 20px;
+    margin-inline: 10px;
+    border-left-color: #161717;
+    border-left-width: 20px;
+    // background-color: #8bb5d5;
+    padding-left: 2px;
+    @media (width<700px) {
+      margin-top: 50px;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+$color: #012a4a;
+$gren-color: #00f5d4;
+.projects-container {
+  .projects {
+    margin: 30px;
+
+    .img {
+      border-radius: 20px;
+      mix-blend-mode: lighten;
+    }
+
+    .cardP {
+      background-color: $color;
+      margin: 5px;
+      height: 300px;
+      flex-wrap: wrap;
+    }
+    .cardP:hover {
+      border-color: #00f5d4;
+      border-width: 3px;
+      // rotate: 30deg;
+      // z-index: 999;
+      // -ms-transform-origin-y: 20px;
+      // translate:20px;
+      // transition: ease-in-out ;
+      -webkit-transform-origin-z: 30px;
+      // transition: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+    }
+  }
+  .sectionName {
+    // margin-top: 30rem;
+    font-size: x-large;
+    font-weight: 800;
+    margin-left: 30px;
+    width: 300px;
+    padding-left: 10px;
+    border-bottom-right-radius: 0%;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+}
